@@ -1,0 +1,73 @@
+/* Animator Styles */
+body {
+  background-color: lightblue;
+}
+
+.animator {
+  display: flex;
+  flex-direction:column;
+  min-height: 90vh;
+  background-color: black;
+  justify-content: flex-start;
+
+}
+
+.uploadSection {
+  display: flex;
+  justify-content: center;
+}
+
+.imageSection {
+  display: flex;
+  justify-content: space-between;
+}
+
+input.imageInput {
+  display: none;
+}
+
+label.imageInput {
+  box-sizing: border-box;
+}
+
+.imageInput.panel {
+}
+
+.inputLabel {
+  margin-left: 15px;
+  margin-right: 5px;
+}
+
+.formInput {
+  margin-right: 15px;
+}
+
+.panel {
+  background-color: gray;
+  padding: 15px;
+  margin: 15px;
+  border: ridge rebeccapurple 5px;
+  width: 100%;
+}
+
+.button {
+  font-family: "Courier New", "sans-serif";
+  font-size: 15pt;
+  font-variant:small-caps;
+  font-weight: bolder;
+  padding: 5px;
+  border-radius: 5px;
+  border: solid lightblue 2px;
+  background-color: mediumpurple;
+  cursor: pointer;
+  position: relative;
+}
+
+.button:hover {
+  background-color: black;
+  color: mediumpurple;
+}
+
+.button:active {
+  transform: translate(25px, 25px);
+}

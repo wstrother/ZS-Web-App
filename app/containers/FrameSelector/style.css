@@ -1,0 +1,30 @@
+/* FrameSelector Styles */
+
+.container {
+  display:block;
+  min-height:100vh;
+}
+
+body {
+  margin: 0;
+}
+
+canvas {
+  border: solid black 1px;
+}
+
+.sprite-sheet {
+  background-image: url("../../images/squirrel.gif");
+  background-repeat: no-repeat;
+}
+
+.frame-cell {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  box-sizing: border-box;
+}
+
+.frame-cell:hover {
+  border: red solid 2px;
+}
